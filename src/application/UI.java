@@ -104,6 +104,7 @@ public class UI {
 		}
 		System.out.println("  a b c d e f g h");
 	}
+
 	
 	private static void printCapturedPieces(List<ChessPiece> captured) {
 		List<ChessPiece> white = captured.stream().filter(x -> x.getColor() == Color.WHITE).collect(Collectors.toList());
